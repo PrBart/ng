@@ -65,9 +65,3 @@ $(document).on("click", ".b-caption-button__play", function() {
     $(".b-caption-button__stop").css("display", "block");
     return false;
 });
-function heightCalc (){
-    var height=$(".b-content__central-section").height();
-    $(".b-content__submenu").css("height", height);
-}
-$(document).ready(heightCalc);
-$(window).resize(heightCalc);
