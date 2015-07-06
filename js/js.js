@@ -69,7 +69,5 @@ function heightCalc (){
     var height=$(".b-content__central-section").height();
     $(".b-content__submenu").css("height", height);
 }
-$(document).ready(function(){
-    heightCalc ();
-})
+$(document).ready(heightCalc);
 $(window).resize(heightCalc);
